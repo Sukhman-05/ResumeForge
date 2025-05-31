@@ -40,4 +40,5 @@
 ## 📌 Note
 
 This project is currently a work in progress. Contributions and feedback are welcome!
+If you download these files, rename backend to server and frontend to client for the code to work
 
