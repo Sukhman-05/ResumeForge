@@ -1,0 +1,48 @@
+/* Center the page content horizontally */
+.page-container {
+  max-width: 800px;
+  margin: 40px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;   /* <--- NEW: Center all text content */
+}
+
+/* Form elements remain full-width, but align centered visually */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 80%;            /* <--- Slightly smaller than full-width */
+  max-width: 400px;      /* <--- Keep forms tidy on larger screens */
+  margin: 0 auto 20px auto;
+  display: block;
+}
+
+/* Buttons stay nicely centered as block-level elements */
+button {
+  margin: 0 auto;
+  display: block;
+}
+
+/* Navbar links stay aligned to the right */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+/* Headings still centered by default */
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #0d47a1;
+}
